@@ -1,0 +1,55 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto';
+}
+.app-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.game-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 60%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #a35200;
+  font-size: 34px;
+}
+.description {
+  color: #334155;
+  font-size: 26px;
+}
+.image {
+  height: 100px;
+  width: 100px;
+}
+.toss-button {
+  background-color: #f9d423;
+  border: 3px solid #a35200;
+  border-radius: 5px;
+  height: 50px;
+  width: 150px;
+}
+.text-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.text {
+  color: #334155;
+  font-size: 24px;
+}
